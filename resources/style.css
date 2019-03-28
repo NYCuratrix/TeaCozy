@@ -1,0 +1,22 @@
+body {
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  display: block;
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  height: 69px;
+  position: fixed;
+  width: 100%;
+  align-items: center;
+}
+
+nav {
+  display: inline-block;
+  text-align: right;
+}

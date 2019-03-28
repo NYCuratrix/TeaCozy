@@ -1,0 +1,11 @@
+div {
+  border: 1px solid white;
+}
+
+body {
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  display: block;
+}
