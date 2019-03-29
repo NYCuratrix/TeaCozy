@@ -1,22 +1,62 @@
 body {
+  /*background-color: black;*/
   font-family: Helvetica;
   font-size: 22px;
-  color: seashell;
-  background-color: black;
-  display: block;
+  /*color: seashell;*/
+  text-align: center;
+  opacity: 0.9;
+  height: 100%;
 }
 
-.header {
+h2
+h3
+h4 {
+  padding: 10px;
+  font-weight: bold;
+}
+.mission-box {
   display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: 700px;
+  width: 1200px;
+  background-image: url(img-mission-background.jpg);
+}
+
+.mission-text {
+  width: 1200px;
+  background-color: black;
+  color: seashell;
   justify-content: center;
-  flex-wrap: wrap;
-  height: 69px;
-  position: fixed;
-  width: 100%;
   align-items: center;
 }
 
-nav {
-  display: inline-block;
-  text-align: right;
+.teas-box {
+  width: 1000px;
+  display: inline-flex;
+  flex-flow: row wrap;
+  justify-content: center;
+
+}
+
+
+
+.featured-tea {
+  display: block;
+  background-color: black;
+  color: white;
+  padding: 10px;
+  align-items: center;
+}
+
+.featured-tea img {
+  height: 200px;
+  width: 300px;
+}
+
+.featured-tea span {
+  display: block;
+  padding: 10px;
+  font-weight: bold;
+  text-align: center;
 }
