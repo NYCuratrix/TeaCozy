@@ -86,3 +86,7 @@ h4 {
   flex-direction: column;
   justify-content: center;
 }
+
+footer {
+  text-align: left;
+}
