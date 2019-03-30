@@ -58,20 +58,27 @@ nav span {
 
 .mission-box {
   display: flex;
-  padding-top: 70px;
-  align-items: center;
-  justify-content: space-around;
   height: 700px;
   width: 1200px;
+  align-items: center;
+  justify-content: space-around;
   background-image: url(img-mission-background.jpg);
 }
 
 .mission-text {
   width: 1200px;
   background-color: black;
-  color: seashell;
   justify-content: center;
   align-items: center;
+}
+
+#featured {
+  position: relative;
+  padding-top: 50px;
+}
+
+.totm {
+  padding-top: 35px;
 }
 
 .teas-box {
@@ -86,7 +93,6 @@ nav span {
 
 .featured-tea {
   display: block;
-  background-color: black;
   padding: 10px;
   align-items: center;
 }
@@ -100,15 +106,18 @@ nav span {
   display: block;
   padding: 10px;
   font-weight: bold;
-  text-align: center;
+}
+
+#locations {
+  position: relative;
+  padding-top: 50px;
 }
 
 .locations {
   height: 500px;
   width: 1200px;
   background-image: url(img-locations-background.jpg);
-  background-repeat: no-repeat;
-  padding-top: 70px;
+  padding-top: 35px;
   align-items: center;
 }
 
@@ -116,6 +125,7 @@ nav span {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
+  margin: auto;
 }
 
 .location {
@@ -123,7 +133,7 @@ nav span {
   width: 300px;
   background-color: black;
   opacity: 1.0;
-  padding: 10px;
+  padding: 5px;
   margin: 15px 20px;
   flex-basis: 280px;
   flex-direction: column;
